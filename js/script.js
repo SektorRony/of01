@@ -73,7 +73,7 @@ function changePictures(){
    
     let imagesEL = document.querySelectorAll('.mySlides img');
     
-    if (window.screen.availWidth === 360){
+    if (window.screen.availWidth <= 600){
 
         imagesEL[0].src = './img/Janaina.jpg';
         imagesEL[1].src = './img/Andresa_II.jpg';
