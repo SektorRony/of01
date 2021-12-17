@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Ópticas Freitas</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar">
+
+            <div class="mobile-menu"><i onclick="toggleMenu()" class="fas fa-bars"></i></div>
+
+            <div class="logo"><img src="img/logo-vazada-branca.png"></div>
+            
+            <a href="#">INICIO</a>
+            <a href="#">NOSSAS LOJAS</a>
+            <a href="#">CATÁLOGO</a>
+            <a href="#">DICAS</a>
+            <a href="#">SOBRE NÓS</a>
+            
+        </nav>
+        <nav class="list-mobile">
+            <a href="#">INICIO</a>
+            <a href="#">NOSSAS LOJAS</a>
+            <a href="#">CATÁLOGO</a>
+            <a href="#">DICAS</a>
+            <a href="#">SOBRE NÓS</a>
+        </nav>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                                
+                <img src="img/Jaja-28.jpg" style="width: 100%">
+                <div class="text">Cuidando bem da sua visão<div>Sempre!</div></div>
+
+            </div>
+
+            <div class="mySlides fade">
+                                
+                <img src="img/opticas-9.jpg" style="width: 100%">
+                <div class="text">Cuidando bem da sua visão<div>Sempre!</div></div>
+
+            </div>
+
+
+            <div class="mySlides fade" onload="autoShowSlides()">
+                                
+                <img src="img/DSC07976.jpg" style="width: 100%">
+                <div class="text">Cuidando bem da sua visão<div>Sempre!</div></div>
+
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>            
+
+        </div>
+        <br>
+
+        <div class="slideDots" style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </header>
+    <section>
+        
+        <div class="content-panel">
+            <div class="content-card green">
+                <h2 class="card-title">Com uma loja perto de você</h2>
+                <div class="card-content">conheca nossos pontos de atendimento...</div>
+                <div class="card-button">
+                    <a href="#" class="card-next">&#10095</a>
+                </div>
+            </div>
+            <div class="content-card green">
+                <h2 class="card-title">Nosso catálogo é diferenciado</h2>
+                <div class="card-content">confira nossa gama de produtos...</div>
+                <div class="card-button">
+                    <a href="#" class="card-next">&#10095</a>
+                </div>
+            </div>
+            <div class="content-card green">
+                <h2 class="card-title">Quer uma dica exclusiva?</h2>
+                <div class="card-content">temos o conteúdo que vai lhe encantar...</div>
+                <div class="card-button">
+                    <a href="#" class="card-next">&#10095</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-title"><h1>Nossos Produtos</h1></div>
+        
+        <div class="content-panel green">
+            <div class="content-text-left" data-animate="left">
+                <h3 class="content-title">Armações</h3>
+                <p class=text-content>
+                    Trabalhamos com as melhores grifes, garantindo assim o conforto e assegurando a qualidade exigida por nossos clientes.
+                </p>
+                <div class='want-button'><a href="#">Eu quero</a></div>
+            </div>
+            <div class='content-image-right'data-animate="right"><img class="img-right" src="img/Samara.png" alt="armacoes"></div>
+        </div>
+
+        <div class="content-panel">
+            <div class='content-image-left' data-animate="left"><img class="img-left" src="img/Modelo II.jpg" alt="solares"></div>
+            <div class="content-text-right" data-animate="right">
+                <h3 class="content-title">Solares</h3>
+                <p class=text-content>
+                    Com design arrojado, elegância e com a proteção que garante o seu conforto visual.
+                </p>
+                <div class='want-button'><a href="#">Eu quero</a></div>
+            </div>
+        </div>
+
+        <div class="content-panel green">
+            <div class="content-text-left" data-animate="left">
+                <h3 class="content-title">Relógios</h3>
+                <p class=text-content>
+                    Até os dias de hoje um acessório essencial. Analógico, digital, com diversos modelos e estilos, aqui você vai encontrar o seu.
+                </p>
+                <div class='want-button'><a href="#">Eu quero</a></div>
+            </div>
+            <div class='content-image-right'data-animate="right"><img class="img-right" src="img/Relogio.png" alt="relogios"></div>
+        </div>
+
+        <div class="content-panel">
+            <div class='content-image-left' data-animate="left"><img class="img-left" src="img/Semi Joia.png" alt="semi-joias"></div>
+            <div class="content-text-right" data-animate="right">
+                <h3 class="content-title">Semi Joias</h3>
+                <p class=text-content>
+                    Com acessórios que garantem a elegância e a delicadeza que você busca. Peças que se destacam e vão fazer você brilhar.
+                </p>
+                <div class='want-button'><a href="#">Eu quero</a></div>
+            </div>
+        </div>
+
+        <div class="section-title"><h1>Nossos Parceiros</h1></div>
+
+            <div class="partness">
+                <div class="partne" style="background-image: url('img/logos/atitude.png');"><div class="green-cover"></div></div>
+                <div class="partne" style="background-image: url('img/logos/HICKMANN.jpg');"></div>
+                <div class="partne" style="background-image: url('img/logos/visage.png');"><div class="green-cover"></div></div>
+                <div class="partne" style="background-image: url('img/logos/ray-ban-logo-3.png');"></div>
+                <div class="partne" style="background-image: url('img/logos/ferrovia.jpg');"><div class="green-cover"></div></div>
+                <div class="partne" style="background-image: url('img/logos/technos.png');"></div>
+                <div class="partne" style="background-image: url('img/logos/jolie.png');"><div class="green-cover"></div></div>
+            </div>
+
+            <div class="partness">
+                <div class="partne" style="background-image: url('img/logos/bulget.png')"></div>
+                <div class="partne" style="background-image: url('img/logos/colcci.png')"><div class="green-cover"></div></div>
+                <div class="partne" style="background-image: url('img/logos/anaHickmann.jpg')"></div>
+                <div class="partne" style="background-image: url('img/logos/mormaii.jpg')"><div class="green-cover"></div></div>
+                <div class="partne" style="background-image: url('img/logos/seculus.png')"></div>
+                <div class="partne" style="background-image: url('img/logos/Speedo.png')"><div class="green-cover"></div></div>
+                <div class="partne" style="background-image: url('img/logos/vogue.jpg')"></div>
+            </div>
+
+
+    </section>
+    <footer>
+       <div class="logo-part"><div class="logo"><img src="img/logo-vazada-branca.png"></div></div>
+       <div class="links-part">
+           <a href="#">Sobre nós</a>
+           <a href="#">Informativo sobre Lentes</a>
+           <a href="#">Dicas da Freitas</a>
+       </div>
+       <div class="social-media-part">
+           
+            <div class="social-media">
+            
+                <h3>Nossas Medias Sociais</h3>
+                
+                <div class="icon-list">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+            
+           </div>
+
+           <div class="payment-methods">
+            
+                <h3>Nossos Metodos de Pagamento</h3>
+
+                <div class="icon-list">
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-amex"></i>
+                </div>
+
+           </div>
+       </div> 
+    </footer>
+    <script defer src="fontawesome/js/all.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
