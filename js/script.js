@@ -3,11 +3,6 @@ showSlides(slideIndex);
 autoShowSlides();
 setGreenHeader();
 changePictures();
-window.onresize = ()=>{
-
-    document.location.reload();
-
-}
 
 function toggleMenu(){
 
